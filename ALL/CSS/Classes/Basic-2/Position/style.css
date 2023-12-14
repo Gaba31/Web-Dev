@@ -1,0 +1,36 @@
+/* p{
+    position: relative;
+} */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black; 
+}
+.box{
+    position: relative;
+    left: 13px;
+    top: 40px;
+} */
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black; 
+}
+
+#box3{
+    position: absolute;
+    /* top: 50px; */
+    /* right: 400px; */
+}
+
+.wrapper{
+    /* display: inline-block; */
+    height: 1000px;
+    background-color: yellow  ;
+    width: 100%;
+}

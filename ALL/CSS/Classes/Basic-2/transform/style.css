@@ -1,0 +1,29 @@
+/* 2d transform */
+.box{
+    background-color: aqua;
+    /* transform: translate(100px,100px); */
+    /* +ve for clock wise and -ve value for anti clock wise  */
+    /* transform: rotate(-45deg); */
+    margin: 200px;
+    /* transform: scale(3,3); */
+    /* transform: scaleY(4); */
+    /* transform: skew(120deg); */
+   
+}
+
+/* 3d transform */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.translated{
+    transform:perspective(10px) translateZ(-14px);
+}
+
+.scaled{
+    transform: perspective(350px) scaleZ(20px) rotateY(45deg);
+}

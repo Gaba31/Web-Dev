@@ -1,0 +1,28 @@
+#one{
+    position: relative;
+    right: 5px;
+    bottom: 20px;
+    left: 3px;
+}
+#two{
+    position: relative;
+    bottom: 200px;
+}
+#three{
+    position: relative;
+    left: 230px;
+    bottom: 220px;
+}
+#four{
+    position: relative;
+    left: 235px;
+    bottom: 85px;
+}
+#five{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+img{
+    position: relative;
+}
