@@ -104,3 +104,17 @@ catch(e){
 console.log(person.fullName);
 
 // Scope of var,let -- Discussed in previous letures as well 
+
+// Reducing an Array
+
+let arr = [1,2,3,4];
+let total = 0;
+
+for(let value of arr){
+    total =  total + value;
+}
+// console.log(total);
+
+let totalSum = arr.reduce((accumulator,currentValue) => accumulator + currentValue , 0);
+
+console.log(totalSum);
