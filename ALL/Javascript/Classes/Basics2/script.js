@@ -16,7 +16,7 @@ let rectangle = {
 // factory function
 
 function createRectangle(length,breadth){
-    return rectangle = {
+    let rectangle = {
         // length : length,
         // breadth : breadth,
         length,
@@ -25,9 +25,10 @@ function createRectangle(length,breadth){
         draw: function(){
             console.log('draw');
         } 
+       
     };
 
-    // return rectangle;
+    return rectangle;
 }
 
 let rectangleObj1 = createRectangle(5,4);
@@ -130,3 +131,4 @@ let des = Object.assign({},src);
 let de = {...src};
 
 console.log(de);
+

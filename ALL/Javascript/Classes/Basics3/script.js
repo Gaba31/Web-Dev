@@ -8,7 +8,7 @@ let firstName = new String("Brijesh");
 
 let message = 'This is my first Message';
 let words = message.split(' ');
-// console.log(words);
+console.log(words);
 
 let message1 = `Hello ${lastName}
 
@@ -80,7 +80,9 @@ let courses = [
 // console.log(courses.indexOf({no:1,naam:'Brijesh'}));
 // It will not work on object because the refrences are different
 
+
 // let course = courses.find(course => course.naam === 'Brijesh');
+
 
 // console.log(course);
 
@@ -127,6 +129,18 @@ let slice = combined.slice(2,3);
 console.log(slice);    
 
 // Combining and slicing on objects H/w
+
+let obj1 = {
+    no:1,
+    no:2,
+    no:3
+};
+let obj2 = {
+    no:4,
+    no:5,
+    no:6
+};
+ 
 
 
 // spread operator
@@ -210,9 +224,21 @@ console.log(items);
 // Maping with object
 
 let nno = [1,2,-6,-9];
-
-
+// let f = nno.filter(value=> value>=0);
 let item = nno.filter(value => value>=0).map(num=>obj = {value:num});
 
 console.log(item);
+
+
+// trying to sort obj array 
+
+let array = [
+    {no:1,name:"Ram"},
+    {no:3,name:"sham"},
+    {no:2,name:"vansh"}
+];
+
+let sort = array.sort(function(value){
+    
+})
 

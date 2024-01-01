@@ -96,7 +96,7 @@ let person = {
 // read only function
 
 try{
-    person.fullName = 'Rahul Kumar';
+    person.fullName = 1;
 }
 catch(e){
     alert(e);
