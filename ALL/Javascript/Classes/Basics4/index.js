@@ -1,4 +1,4 @@
-// console.log("kya haal");
+// console.log("kya haalgit");
 
 
 // function call or invoke

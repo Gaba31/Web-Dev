@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#wrapper{
+    overflow-x: hidden;
+    text-align: center;
+    
+}
+
+.alldiv{
+    display: flex;
+    justify-content: center;
+    gap:4px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    
+
+}
+#grey{
+    background-color: gray;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
