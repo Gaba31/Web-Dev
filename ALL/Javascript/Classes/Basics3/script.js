@@ -80,6 +80,7 @@ let courses = [
 // console.log(courses.indexOf({no:1,naam:'Brijesh'}));
 // It will not work on object because the refrences are different
 
+let course = courses.find(course=> course.naam ==='Gaba');
 
 // let course = courses.find(course => course.naam === 'Brijesh');
 
@@ -130,18 +131,16 @@ console.log(slice);
 
 // Combining and slicing on objects H/w
 
-let obj1 = {
-    no:1,
-    no:2,
-    no:3
-};
-let obj2 = {
-    no:4,
-    no:5,
-    no:6
-};
+let comb1 = [
+    {no:1,name:"Brijesh"}
+];
  
-
+let comb2 = [
+    {no:2,name:"AUfj"}
+];
+ 
+let comb3 = comb1.concat(comb2);
+console.log(comb3);
 
 // spread operator
 
@@ -230,15 +229,4 @@ let item = nno.filter(value => value>=0).map(num=>obj = {value:num});
 console.log(item);
 
 
-// trying to sort obj array 
-
-let array = [
-    {no:1,name:"Ram"},
-    {no:3,name:"sham"},
-    {no:2,name:"vansh"}
-];
-
-let sort = array.sort(function(value){
-    
-})
-
+// trying to sort obj array
