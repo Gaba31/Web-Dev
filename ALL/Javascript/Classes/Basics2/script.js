@@ -12,6 +12,7 @@ let rectangle = {
     } 
 };
 
+console.log(rectangle.length);
 
 // factory function
 

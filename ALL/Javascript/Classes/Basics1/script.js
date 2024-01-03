@@ -16,7 +16,7 @@ const num  = 12;
 
 let names = ['love','rahul','sangram'];
 
-console.log(names[3]);
+console.log(names[3]); 
 
 let sa = 13;
 

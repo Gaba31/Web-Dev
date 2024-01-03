@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+input{
+    background-color: white;
+}
+
+button{
+    font-size: medium;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 2px solid black;
+    background-color: white;
+    
+}
+
+p{
+    font-size: large;
+}
+
+.weight-guide{
+    
+}
