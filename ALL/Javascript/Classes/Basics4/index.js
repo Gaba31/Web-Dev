@@ -37,7 +37,7 @@ jump();
 
 // function sum(){
 //     let total = 0;
-//     for(let value of arguments ){
+//     for(let value of arguments){
 //         total += value;
 //     }
    
